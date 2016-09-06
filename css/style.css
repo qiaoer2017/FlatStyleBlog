@@ -86,8 +86,14 @@ nav .logo {
 
 .banner .more {
     position: absolute;
-    bottom: 30px;
+    bottom: 15px;
     width: 100%;
+    color: #fff;
+    font-size: 13px;
     text-align: center;
+}
+.banner .more div {
+    margin-top: 20px;
+    font-size: 20px;
 }
 
