@@ -7,6 +7,7 @@ body {
     background: url("../img/banner.jpg") no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    overflow-x: hidden;
 }
 
 a {
@@ -336,16 +337,19 @@ footer > div {
     overflow: auto;
     padding: 50px 0;
     color: #fff;
+    overflow-x: hidden;
 }
 
 footer .text {
     float: left;
     width: 67%;
+    overflow-x: hidden;
 }
 
 footer .buttons {
     float: left;
     width: 30%;
+    overflow-x: hidden;
 }
 
 footer h2 {
