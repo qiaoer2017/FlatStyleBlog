@@ -153,7 +153,12 @@
 <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
 <script>
-    AOS.init();
+    AOS.init({
+        offset: 200,
+        easing: 'ease-in-sine',
+        delay: 100,
+        once: true
+    });
 </script>
 </body>
 </html>
