@@ -326,40 +326,40 @@ nav .logo {
     background: rgba(0, 0, 0, 0.25);
 }
 
-footer {
+.contact {
     /*background: #ccc;*/
     background: rgba(0,0,0,0.4);
 }
 
-footer > div {
+.contact > div {
     width: 60%;
     margin: 0 auto;
     overflow: auto;
-    padding: 50px 0;
+    padding: 90px 0;
     color: #fff;
     overflow-x: hidden;
 }
 
-footer .text {
+.contact .text {
     float: left;
     width: 67%;
     overflow-x: hidden;
 }
 
-footer .buttons {
+.contact .buttons {
     float: left;
     width: 30%;
     overflow-x: hidden;
 }
 
-footer h2 {
+.contact h2 {
     font-size: 17px;
     font-weight: 700;
     line-height: 2;
     margin-bottom: 5px;
 }
 
-footer p {
+.contact p {
     font-size: 14px;
     line-height: 2;
 }
@@ -373,4 +373,19 @@ footer p {
     padding: 10px;
     margin-bottom: 15px;
     margin: 0px auto 15px;
+}
+
+footer {
+    height: 150px;
+    background: rgba(45, 48, 54, 0.9);
+    color: #fff;
+    text-align: center;
+}
+footer p{
+    font-size:17px;
+    padding-top: 30px;
+}
+footer p i {
+    font-size: 25px;
+    margin: 10px;
 }
