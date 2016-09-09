@@ -10,7 +10,7 @@ AOS.init({
 
 $(function () {
     $('.sidebar-trigger').click(function () {
-        $('.mask').show();
+        $('.mask').fadeIn();
         $('aside').animate({
             right:0
         });
@@ -21,6 +21,23 @@ $(function () {
         $('aside').animate({
             right:-300
         });
-        $('.mask').hide();
+        $('.mask').fadeOut();
     });
+
+    $('.back-to-top').click(function () {
+        $('body').animate({
+            scrollTop:0
+        });
+    });
+    $(window).scroll(function () {
+        if($(window).scrollTop()>$(window).height()){
+            $('.back-to-top').fadeIn();
+        }else{
+            $('.back-to-top').fadeOut();
+        }
+    });
+    $(window).trigger('scroll');
+
+
 });
+
