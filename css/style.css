@@ -14,9 +14,11 @@ a {
     text-decoration: none;
     color: #666;
 }
-header{
-    background: rgba(0,0,0,0.4);
+
+header {
+    background: rgba(0, 0, 0, 0.4);
 }
+
 nav {
     height: 50px;
     /*background: #ccc;*/
@@ -148,13 +150,14 @@ nav .logo {
 .green-section .icon {
     margin-top: 40px;
 }
-.green-section .icon > div{
+
+.green-section .icon > div {
     display: inline-block;
     margin-left: 35px;
 
 }
 
-.green-section .icon div div{
+.green-section .icon div div {
     width: 50px;
     height: 50px;
     outline: 2px solid #41af98;
@@ -328,7 +331,7 @@ nav .logo {
 
 .contact {
     /*background: #ccc;*/
-    background: rgba(0,0,0,0.4);
+    background: rgba(0, 0, 0, 0.4);
 }
 
 .contact > div {
@@ -381,25 +384,53 @@ footer {
     color: #fff;
     text-align: center;
 }
-footer p{
-    font-size:17px;
+
+footer p {
+    font-size: 17px;
     padding-top: 30px;
 }
+
 footer p i {
     font-size: 25px;
     margin: 10px;
 }
 
-aside{
+aside {
     position: fixed;
-    top:0;
+    top: 0;
     right: 0;
-    bottom:0;
-    width:300px;
-    background: #000;
-    background: rgba(45, 48, 54, 0.9);
+    bottom: 0;
+    width: 300px;
+    background: rgba(51, 51, 50, 0.7);
+    z-index: 100;
 }
 
-aside a{
+aside {
+    padding: 20px 0;
+}
+
+aside a {
     color: #fff;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    padding: 10px 50px;
+}
+
+aside a:hover {
+    background: rgba(51, 51, 51, 0.9);
+}
+
+aside li {
+
+}
+
+.mask {
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left:0;
+    right:0;
+    z-index: 99;
+    background: rgba(51, 51, 50, 0.3);
 }
