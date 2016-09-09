@@ -389,3 +389,17 @@ footer p i {
     font-size: 25px;
     margin: 10px;
 }
+
+aside{
+    position: fixed;
+    top:0;
+    right: 0;
+    bottom:0;
+    width:300px;
+    background: #000;
+    background: rgba(45, 48, 54, 0.9);
+}
+
+aside a{
+    color: #fff;
+}
